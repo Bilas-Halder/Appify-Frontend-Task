@@ -1,0 +1,46 @@
+.left-section {
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.left-section h4 {
+  font-size: 22px;
+}
+.explore-item {
+  color: gray;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.explore-item span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Download App */
+.store-img {
+  width: 49%;
+}
+.store-img img {
+  width: 100%;
+}
+
+/* Suggested People */
+.suggested-people {
+  padding: 1.5rem;
+  font-weight: 500;
+}
+.peoples-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.peoples-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.peoples-name {
+  color: #717171;
+}
