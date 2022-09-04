@@ -1,11 +1,12 @@
 import React from "react";
-import { FiSave } from "react-icons/fi";
+import { FiCalendar, FiSave, FiUser, FiUsers } from "react-icons/fi";
+import { CgCalendarTwo } from "react-icons/cg";
 import playStore from "../../Images/download play store.png";
 import appStore from "../../Images/download app store.png";
 import "./LeftSection.css";
 import Button from "react-bootstrap/Button";
 
-const componentName = (props) => {
+const LeftSection = (props) => {
   return (
     <>
       <div className="left-section explore">
@@ -15,16 +16,16 @@ const componentName = (props) => {
             <FiSave /> <span> Saved Posts</span>
           </div>
           <div className="explore-item">
-            <FiSave /> <span> People</span>
+            <FiUser /> <span> People</span>
           </div>
           <div className="explore-item">
-            <FiSave /> <span> Groups</span>
+            <FiUsers /> <span> Groups</span>
           </div>
           <div className="explore-item">
-            <FiSave /> <span> Pages</span>
+            <CgCalendarTwo /> <span> Pages</span>
           </div>
           <div className="explore-item">
-            <FiSave /> <span> Events</span>
+            <FiCalendar /> <span> Events</span>
           </div>
         </div>
       </div>
@@ -56,4 +57,4 @@ const componentName = (props) => {
   );
 };
 
-export default componentName;
+export default LeftSection;

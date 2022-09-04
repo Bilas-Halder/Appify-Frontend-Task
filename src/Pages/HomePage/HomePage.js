@@ -2,9 +2,11 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Header from "../../Components/Header/Header";
 import Explore from "../../Components/LeftSection/LeftSection";
+import MidSection from "../../Components/MidSection/MidSection";
+import RightSection from "../../Components/RightSection/RightSection";
 import "./HomePage.css";
 
-const componentName = (props) => {
+const HomePage = (props) => {
   return (
     <div style={{ backgroundColor: "#e9ebee" }}>
       <Header />
@@ -13,12 +15,16 @@ const componentName = (props) => {
           <div className="grid-column-home home-left">
             <Explore />
           </div>
-          <div className="grid-column-home home-mid">456</div>
-          <div className="grid-column-home home-right">789</div>
+          <div className="grid-column-home home-mid">
+            <MidSection />
+          </div>
+          <div className="grid-column-home home-right">
+            <RightSection />
+          </div>
         </div>
       </Container>
     </div>
   );
 };
 
-export default componentName;
+export default HomePage;

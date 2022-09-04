@@ -26,6 +26,9 @@
   margin: 0px 0.75rem;
   position: relative;
 }
+.custom-nav-link span {
+  font-size: 1.2rem;
+}
 .custom-nav-link::after {
   content: "";
   position: absolute;
