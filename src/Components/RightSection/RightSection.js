@@ -29,9 +29,9 @@ const RightSection = (props) => {
 
       <div className="left-section">
         <h4>Your Friends</h4>
-        <div className="searchBar mt-4">
+        <div className="searchBar mt-4 w-100">
           <input
-            className="search"
+            className="search w-100"
             type="text"
             style={{
               border: "none",

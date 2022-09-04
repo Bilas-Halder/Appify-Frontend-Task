@@ -1,0 +1,23 @@
+.newPostWrapper {
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem 1.2rem;
+}
+.publicPost {
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+  padding: 0.9rem 1.2rem;
+  font-weight: 500;
+}
+.publicPost span {
+  color: #db1515d5;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .postTopics .feelingOrActivity {
+    display: none !important;
+  }
+}
