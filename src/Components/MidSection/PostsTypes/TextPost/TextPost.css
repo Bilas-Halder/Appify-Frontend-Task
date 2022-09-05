@@ -1,0 +1,43 @@
+.textPost {
+  height: fit-content;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1.2rem;
+}
+.username {
+  color: #525252;
+  font-size: 0.9rem;
+  margin-left: 1rem;
+}
+.username span {
+  color: #a1a1a1;
+}
+.username h5 {
+  font-size: 1rem;
+}
+.username h5 span {
+  color: #7a7a7a;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+.username h5 span svg {
+  color: #cea600;
+}
+
+.post-menu-btn .dropdown .dropdown-toggle {
+  background-color: #fff;
+  color: #525252;
+  border: none;
+}
+.post-menu-btn .dropdown .dropdown-toggle::after {
+  display: none;
+}
+
+.post-menu-btn .dropdown .dropdown-toggle:focus {
+  border: none;
+}
+.post-menu-btn .dropdown .dropdown-toggle:focus-visible {
+  border: none;
+}

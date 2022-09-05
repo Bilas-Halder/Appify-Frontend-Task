@@ -11,9 +11,9 @@ const NewPost = (props) => {
         <div className="d-flex">
           <UserIcon size={40} />
 
-          <div className="searchBar ms-4 w-100">
+          <div className="searchBar ps-4" style={{ width: "90%" }}>
             <input
-              className="search ps-3"
+              className="search ps-3 me-auto w-100"
               type="text"
               placeholder="Create a new post..."
               style={{
@@ -40,7 +40,7 @@ const NewPost = (props) => {
         </div>
       </div>
 
-      <div className="publicPost my-3">
+      <div className="publicPost">
         <span>Public Post</span>
         Friend Post
       </div>

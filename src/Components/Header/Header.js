@@ -28,6 +28,7 @@ const Header = (props) => {
             expand="lg"
             variant="dark"
             style={{ backgroundColor: "#34465d" }}
+            fixed="top"
           >
             <Container fluid>
               <Navbar.Brand href="#home">
